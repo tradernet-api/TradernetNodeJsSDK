@@ -1,0 +1,54 @@
+{
+  "name": "tradernet-sdk",
+  "version": "0.1.0",
+  "description": "Node.js / TypeScript SDK for the Tradernet public API V3: signed HTTP commands, SID session management and realtime WebSocket streams.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "tradernet",
+    "freedom-finance",
+    "trading",
+    "broker",
+    "api",
+    "sdk"
+  ],
+  "homepage": "https://tradernet.com/tradernet-api/",
+  "engines": {
+    "node": ">=20"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "start": "node main.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "peerDependencies": {
+    "ws": "^8.18.0"
+  },
+  "peerDependenciesMeta": {
+    "ws": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "@types/ws": "^8.18.0",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.8",
+    "ws": "^8.21.3"
+  }
+}
