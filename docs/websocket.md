@@ -22,4 +22,13 @@ for await (const frame of ws.frames()) {
 
 Install peer: `npm install ws`.
 
-Cloudflare rejects well-known HTTP library User-Agents. The SDK sends `tradernet-node-sdk/0.1.0`.
+Run the bundled example (after `npm run build`):
+
+```bash
+npm run example:ws
+# or
+node examples/websocket_quotes.js
+
+TRADERNET_WS_SID=1 npm run example:ws   # real account streams
+```
+

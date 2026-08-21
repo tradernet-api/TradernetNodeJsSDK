@@ -1,5 +1,5 @@
 import { Tradernet } from '../dist/index.js';
 
-export async function createClient(): Promise<Tradernet> {
+export async function createClient() {
   return Tradernet.fromEnv().init();
 }

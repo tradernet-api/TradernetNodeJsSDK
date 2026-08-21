@@ -26,5 +26,6 @@ English only under `docs/` (installation, authentication, http-api, resources, w
 
 ## Examples
 
-`examples/` — quotes, portfolio, orders (live-trade warning), websocket_quotes.
+`examples/` — JS scripts (`quotes`, `portfolio`, `orders`, `websocket_quotes`).
+Run via `npm run example:ws` (needs `npm run build` + `.env`).
 Credentials: copy `.env.example` → `.env` (gitignored); `fromEnv()` loads it.

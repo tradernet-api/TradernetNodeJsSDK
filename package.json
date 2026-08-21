@@ -32,6 +32,10 @@
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
     "start": "node main.js",
+    "example:quotes": "node examples/quotes.js",
+    "example:portfolio": "node examples/portfolio.js",
+    "example:orders": "node examples/orders.js",
+    "example:ws": "node examples/websocket_quotes.js",
     "test": "vitest run",
     "test:watch": "vitest",
     "typecheck": "tsc -p tsconfig.json --noEmit"
