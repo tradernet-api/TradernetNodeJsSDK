@@ -19,3 +19,4 @@ English documentation for the Tradernet Node.js SDK.
 ## Contributing
 
 - [Development](development.md)
+- [Publishing to npm](publishing.md)

@@ -28,3 +28,4 @@ node examples/websocket_quotes.js
 - TypeScript strict / NodeNext
 - Unit tests: Vitest (`tests/unit`)
 - Do not commit `tradernet.ini` or `.env`
+- Publish: see [Publishing to npm](publishing.md) (`npm run pack:check`, then `npm publish`)

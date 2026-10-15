@@ -22,7 +22,15 @@ Registry of modules and significant functionality for the Tradernet Node.js SDK.
 
 ## Docs
 
-English only under `docs/` (installation, authentication, http-api, resources, websocket, security, development).
+English only under `docs/` (installation, authentication, http-api, resources, websocket, security, development, publishing).
+
+## Publish (npm)
+
+- Package name: `tradernet-sdk` → registry.npmjs.org
+- `"files"`: `dist/`, `README.md`, `LICENSE` (see `.npmignore`)
+- Hooks: `prepack` (build), `prepublishOnly` (build + test)
+- Check tarball: `npm run pack:check`
+- Guide: `docs/publishing.md`
 
 ## Examples
 

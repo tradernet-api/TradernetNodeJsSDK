@@ -1,5 +1,6 @@
 # Tradernet Node.js SDK
 
+[![npm](https://img.shields.io/npm/v/tradernet-sdk.svg)](https://www.npmjs.com/package/tradernet-sdk)
 [![Node](https://img.shields.io/badge/Node-%3E%3D20-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
@@ -127,6 +128,7 @@ tn.websocket()
 - [Resources](docs/resources.md)
 - [WebSocket](docs/websocket.md)
 - [Security](docs/security.md)
+- [Publishing to npm](docs/publishing.md) — maintainers
 
 ## License
 

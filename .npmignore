@@ -1,0 +1,26 @@
+# Extra safety net — `package.json` "files" already whitelists the publish set.
+# Keep secrets and local scratch out of accidental packs.
+
+.env
+.env.*
+!.env.example
+tradernet.ini
+*.ini
+!*.ini.example
+!tradernet.ini.example
+main.js
+examples/
+tests/
+docs/
+src/
+coverage/
+.venv/
+.idea/
+.vscode/
+*.log
+*.tsbuildinfo
+.vitest/
+AGENTS.md
+vitest.config.ts
+tsconfig.json
+tsconfig.build.json
