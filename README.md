@@ -10,7 +10,8 @@ Typed, session-aware HTTP commands and optional WebSocket streams for server-sid
 
 | | |
 |---|---|
-| **Package** | `tradernet-sdk` |
+| **Package** | [`tradernet-sdk`](https://www.npmjs.com/package/tradernet-sdk) |
+| **npm** | https://www.npmjs.com/package/tradernet-sdk |
 | **Runtime** | Node.js `>= 20` |
 | **HTTP** | native `fetch` |
 | **Realtime** | optional peer `ws` |
@@ -25,6 +26,8 @@ Typed, session-aware HTTP commands and optional WebSocket streams for server-sid
 - WebSocket quotes / account channels via `ws`
 
 ## Installation
+
+Published on npm: [tradernet-sdk](https://www.npmjs.com/package/tradernet-sdk)
 
 ```bash
 npm install tradernet-sdk
