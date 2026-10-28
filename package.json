@@ -1,6 +1,6 @@
 {
   "name": "tradernet-sdk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Node.js / TypeScript SDK for the Tradernet public API V3: signed HTTP commands, SID session management and realtime WebSocket streams.",
   "type": "module",
   "license": "MIT",
